@@ -1,0 +1,23 @@
+.card {
+    box-shadow: 0 4px 8px rgba(22, 7, 7, 0.1)!important; /* Add box shadow to the card */
+    transition: box-shadow 0.3s ease!important;/* Add transition effect to the box shadow */
+    position: relative!important;/* Make the position relative for absolute positioning */
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)!important; /* Change box shadow on hover */
+  }
+  .small-box {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: -16px;
+    left: 10px;
+}
+  body {
+    overflow-x: hidden!important;
+    overflow-y: auto;
+  }
+
+

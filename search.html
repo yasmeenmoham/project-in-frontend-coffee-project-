@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>     
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>four day</title>
+  <link rel="stylesheet" href="search.css">  
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="C:\Users\Sroor For Laptop\Documents\New folder\fontawesome-free-6.5.2-web">  
+  <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.jquery.min.js"></script>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #FA8072;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .product {
+    margin-bottom: 30px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #333;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 15px;
+margin-left: 80px;
+background-color: white;
+border-color: #FA8072;
+color: #333;
+border: 1px solid #FA8072;
+  }
+  body {
+    overflow-x: hidden!important;
+    overflow-y: auto;
+  }
+
+
+
+  </style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-image: url('header-bg.png');">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand" href="#" style="font-weight: 900;
+          font-size: 40px;
+          color: black;
+          /* margin-right: 56px; */
+          margin-left: 56px;">Doze </a><a class="navbar-brand" href="#" style="font-weight: 900;
+          font-size: 40px;
+          color: #A52A2A;
+          /* margin-right: 56px; */
+          ">Cafe</a>
+      
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent"style="margin-right: 68px;"   >
+            <ul class="navbar-nav" style="font-size: 20px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="new.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="coffee.html">COFFES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="breakfast.html">BREAKFAST</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="breakfast.html">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
+              </li>
+        
+              <!-- Search Icon -->
+              <li class="nav-item">
+                <a class="nav-link" href="search.html"><i class="fa fa-search"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+<div class="container">
+    <h1 style="font-size: 40px;
+    font-weight: 800;
+    color: #FA8072;
+    margin-top: 19px;
+    margin-bottom: 123px;">Coffee Shop</h1>
+    <div class="search-box">
+      <input type="text" placeholder="Search for coffee brands..." style="   width: 900px;
+      height: 47px;
+      border: 2px solid;
+      border-radius: 23px;
+      justify-content: center;
+      display: flex;
+      /* margin-bottom: 112px; */
+      margin-top: -1px;
+      border-color: #FA8072;
+      margin-left: 40px;
+
+  "> 
+      <!-- <button style="    /* margin-right: -44px; */
+      margin-left: 274px;
+      margin-top: 35px;
+      margin-bottom: 48px;
+      width: 187px;
+      border-radius: 32px;
+      background-color: white;
+      border-color: blanchedalmond;
+      height: 51px;
+      margin-left: 111px;
+      ">Search</button> -->
+    </div>
+  </div>
+</header>
+
+<main>
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="product">
+              <img src="images\proxy-image (1).jpg" alt="Coffee 1">
+              <h2>Arabica Coffee</h2>
+              <p>Smooth and flavorful Arabica coffee beans.</p>
+           
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <img src="images\proxy-image (2).jpg" alt="Coffee 2">
+              <h2>Robusta Coffee</h2>
+              <p>Rich and bold Robusta coffee beans.</p>
+
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <img src="images\proxy-image (3).jpg" alt="Coffee 3">
+              <h2>Specialty Coffee</h2>
+              <p>Exotic and unique specialty coffee beans.</p>
+         
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (5).jpg" alt="Coffee 1" style="width: 347px;height: 240px;
+              ">
+                <h2>Arabica Coffee</h2>
+                <p>Smooth and flavorful Arabica coffee beans.</p>
+               
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (6).jpg" alt="Coffee 2" style="width: 347px;height: 240px;">
+                <h2>Robusta Coffee</h2>
+                <p>Rich and bold Robusta coffee beans.</p>
+        
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (7).jpg" alt="Coffee 3" style="width: 347px;height: 240px;">
+                <h2>Specialty Coffee</h2>
+                <p>Exotic and unique specialty coffee beans.</p>
+         
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+    
+        <!-- Third Row -->
+        <div class="row">
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (8).jpg" alt="Coffee 1" style="width: 347px;    height: 280px;">
+                <h2>Arabica Coffee</h2>
+                <p>Smooth and flavorful Arabica coffee beans.</p>
+                
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (9).jpg" alt="Coffee 2" style="width: 347px;">
+                <h2>Robusta Coffee</h2>
+                <p>Rich and bold Robusta coffee beans.</p>
+                
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product">
+                <img src="images\proxy-image (10).jpg" alt="Coffee 3" style="width: 347px;    height: 280px;">
+                <h2>Specialty Coffee</h2>
+                <p>Exotic and unique specialty coffee beans.</p>
+                
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+      </div>
+</main>
+
+
+
+
+
+
+<footer class="footer p-5" style=" background-image: url('footer-bg.png');   
+margin-top: 333px;
+width: 1590px;
+margin-left: -6px;
+">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+            <a style="font-size: 40px;
+            color: white;
+            /* margin-right: 56px; */
+            margin-left: 56px;"">Doze </a><a class="navbar-brand" href="#" style="font-weight: 900;
+            font-size: 40px;
+            color: #A52A2A;
+            /* margin-right: 56px; */
+            ">Cafe</a>
+        </div>
+        <div class="col-md-3">
+          <h5 style="color: white;">News</h5>
+          <p style="color: white;">
+            It is a long established fact that a reader will
+            be distracted by the
+            readable content of a
+            page when
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h5 style="color: white;">Contact Us</h5>
+          <ul class="list-unstyled" style="color: white;">
+            <li>Email: info@example.com</li>
+            <li>Phone: +1233567890</li>
+            <li>Address: 123 Street, City, Country</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 style="color: white;">Follow Us</h5>
+          <ul class="list-inline footer-links">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6" style="color: white;">
+          <p>© 2024 Your Website. All rights reserved.</p>
+        </div>
+        <!-- Insert the social media section code here -->
+        <div class="text-center text-lg-start text-white" style="background-color: #1c2331">
+          <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+            <!-- Left -->
+            <div class="me-5">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+            <!-- Right -->
+            <div>
+              <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-4"><i class="fab fa-google"></i></a>
+              <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="text-white me-4"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- Right -->
+          </section>
+        </div>
+        <!-- End of social media section -->
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
