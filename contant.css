@@ -83,3 +83,13 @@ footer {
     .hamburger {
         display: flex;
     }}
+    body {
+        overflow-x: hidden!important;
+        overflow-y: auto;
+      }
+.submit-button:hover{
+    background-color:white;
+    border: 1px solid;
+    border-color: #FA8072 ;
+    color: #FA8072;
+}    
