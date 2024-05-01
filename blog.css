@@ -1,3 +1,54 @@
+
+
+
+
+
+
+/* Custom styles for larger screens */
+@media (min-width: 992px) {
+  /* Adjust the logo and icon size */
+  .navbar-brand {
+    font-size: 40px;
+  }
+  .fa-mug-hot {
+    font-size: 36px;
+  }
+  /* Adjust the right margin of the navigation links */
+  #navbarSupportedContent {
+    margin-right: 68px;
+  }
+}
+
+/* Custom styles for smaller screens */
+@media (max-width: 991px) {
+  /* Adjust the logo and icon size */
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .fa-mug-hot {
+    font-size: 26px;
+  }
+  /* Adjust the right margin of the navigation links */
+  #navbarSupportedContent {
+    margin-right: 20px;
+  }
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #FA8072 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 .card {
     box-shadow: 0 4px 8px rgba(22, 7, 7, 0.1)!important; /* Add box shadow to the card */
     transition: box-shadow 0.3s ease!important;/* Add transition effect to the box shadow */
